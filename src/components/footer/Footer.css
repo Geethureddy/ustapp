@@ -1,0 +1,116 @@
+.footer {
+  background: #1c242c;
+  text-align: left;
+  padding: 2.5rem;
+  padding-bottom: 1.56rem;
+}
+.footer_logo {
+  width: 59px;
+  height: 65px;
+}
+.left_footer {
+  background: #f7f7f1;
+  padding-bottom: 2.5rem;
+  padding: 1.875rem;
+}
+.stay {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #1c242c;
+  margin-bottom: 0.625rem;
+}
+.about {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 120%;
+  color: #1c242c;
+  padding-bottom: 2.5rem;
+}
+.footer_content {
+  padding-left: 7.43rem;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.signUp_text {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #1c242c;
+}
+.signUp {
+  width: 9.18rem;
+  padding: 0.75rem 1.25rem;
+  border: 1.5px solid #000000;
+  align-items: center;
+  gap: 1.75rem;
+  display: flex;
+  cursor: pointer;
+}
+.footer_item {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+  list-style: none;
+  color: #ffffff;
+}
+.items {
+  display: flex;
+  gap: 2.5rem;
+}
+.footerItems {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.right_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5.875rem;
+}
+.copyright {
+  display: none;
+}
+.cookies {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #ffffff;
+}
+.arrow_image {
+  width: 32px;
+  height: 32px;
+}
+
+@media only screen and (max-width: 425px) {
+  .footer_content {
+    display: none;
+  }
+  .copyright {
+    display: block;
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  .footer_logo {
+    padding-bottom: 20px;
+    width: 72px;
+    height: 80px;
+  }
+}

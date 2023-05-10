@@ -1,0 +1,24 @@
+<svg width="46" height="50" viewBox="0 0 46 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Assets/Logo/Main">
+<g id="Group 11">
+<path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M33.9492 13.0217H41.6829V5.39062H33.9492V13.0217Z" fill="#1C242C"/>
+<g id="Group 5">
+<mask id="mask0_1_12757" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="19">
+<path id="Clip 4" fill-rule="evenodd" clip-rule="evenodd" d="M0 0.0898438H17.1735V18.8748H0V0.0898438Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_12757)">
+<path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd" d="M11.8219 0.0898438H17.1735V10.8617C17.1735 16.6679 14.0052 18.8748 8.62689 18.8748C3.03546 18.8748 0 16.5365 0 10.8617V0.0898438H5.3519V11.1507C5.3519 13.3575 6.52338 14.5135 8.60029 14.5135C10.6769 14.5135 11.8219 13.3575 11.8219 11.1507V0.0898438Z" fill="#1C242C"/>
+</g>
+</g>
+<path id="Fill 6" fill-rule="evenodd" clip-rule="evenodd" d="M45.9844 31.0898V35.5561H40.4727V49.4806H35.121V35.5561H29.6094V31.0898H45.9844Z" fill="#1C242C"/>
+<g id="Group 10">
+<mask id="mask1_1_12757" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="30" width="17" height="20">
+<path id="Clip 9" fill-rule="evenodd" clip-rule="evenodd" d="M0.605469 30.7891H16.3797V49.968H0.605469V30.7891Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1_12757)">
+<path id="Fill 8" fill-rule="evenodd" clip-rule="evenodd" d="M12.2975 36.4097C11.4236 35.3263 10.4143 34.8635 8.77218 34.8635C6.99956 34.8635 6.11693 35.4129 6.11693 36.2537C6.11693 37.147 6.96146 37.6462 8.77218 38.0928L10.3962 38.4868C14.976 39.5904 16.3797 41.5871 16.3797 44.2407C16.3797 47.7349 13.5381 49.9681 8.31963 49.9681C5.28408 49.9681 2.06974 49.1274 0.605469 46.395L4.12833 44.0837C5.10233 45.557 6.33696 46.0501 8.29295 46.0501C9.98552 46.0501 11.3475 45.6593 11.3475 44.4771C11.3475 43.6626 10.7158 43.3211 9.03838 42.9007L7.33432 42.4804C2.78121 41.3506 1.29763 38.9598 1.29763 36.4901C1.29763 33.1273 3.84622 30.7891 8.79859 30.7891C11.9405 30.7891 14.5692 31.6559 15.9803 34.2832L12.2975 36.4097Z" fill="#1C242C"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

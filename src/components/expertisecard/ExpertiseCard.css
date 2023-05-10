@@ -1,0 +1,74 @@
+.expertise_card {
+  width: 275px;
+  height: 300px;
+
+  padding: 2.5rem 1.25rem 1.875rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.count_part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card_title {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 120%;
+  color: #ffffff;
+  text-align: left;
+  /* margin-bottom: 5.18rem; */
+}
+.card_text {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 120%;
+  color: #ffffff;
+}
+.learnmore {
+  display: flex;
+  align-items: center;
+  margin-top: 1.06rem;
+  gap: 0.5625rem;
+  cursor: pointer;
+}
+.learnmore_text {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #ffffff;
+}
+.arrow_image {
+  width: 32px;
+  height: 32px;
+  object-fit: "cover";
+}
+
+@media only screen and (max-width: 425px) {
+  .expertise_card {
+    width: 100%;
+    height: 183px;
+    padding: 1.5rem 0.75rem;
+    padding-bottom: 1rem;
+  }
+  .card_title {
+    font-size: 1.25rem;
+  }
+  .card_text {
+    font-size: 0.87rem;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 1480px) {
+  .expertise_card {
+    width: 100%;
+  }
+}

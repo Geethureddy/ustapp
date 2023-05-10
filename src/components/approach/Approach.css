@@ -1,0 +1,25 @@
+.side_image {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+}
+.section {
+  display: flex;
+}
+.section_header {
+  margin-bottom: 1.25rem;
+}
+@media only screen and (max-width: 425px) {
+  .section {
+    flex-direction: column;
+    padding: 0px !important;
+    gap: 32px !important;
+  }
+  .content {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+  .side_image {
+    width: 100%;
+  }
+}

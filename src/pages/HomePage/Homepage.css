@@ -1,0 +1,228 @@
+.digital_section {
+  background-image: url("../../Assets/Hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100% - 733px);
+}
+.services_body {
+  padding: 13.06rem 0rem 7.5rem 5.625rem;
+  text-align: left;
+}
+.services_header {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 5.43rem;
+}
+.about_services {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+.learnmore_text {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0;
+}
+.learn_more {
+  border: 1.5px solid #ffffff;
+  align-items: center;
+  display: flex;
+  width: 171px;
+  gap: 1.87rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+}
+.overview_section {
+  width: 100%;
+  background: #ffffff;
+  padding: 7.5rem 10rem;
+}
+.overview_header {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0097ab;
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+.left_content {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 120%;
+  color: #1c242c;
+  text-align: left;
+  margin: 0;
+  margin-right: 3.75rem;
+}
+/* .right_content::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background: #1c242c;
+  opacity: 0.3;
+  border: 1px solid #1c242c;
+} */
+.border {
+  background: #1c242c;
+  opacity: 0.3;
+  border: 1px solid #1c242c;
+}
+.right_content {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #0097ab;
+  text-align: left;
+  margin: 0;
+  margin-left: 3.75rem;
+}
+.overview_content {
+  display: flex;
+  height: 100%;
+}
+.area_expertise_section {
+  background: #1c242c;
+  padding: 7.5rem 10rem;
+  width: 100%;
+}
+.section_header {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.375rem;
+  line-height: 120%;
+  color: #ffffff;
+}
+.section_content,
+.area_section_content {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #ffffff;
+}
+.step_text {
+  display: none;
+}
+.header {
+  gap: 3.75rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.75rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1.25rem;
+}
+@media only screen and (max-width: 425px) {
+  .digital_section {
+    background-image: none;
+  }
+  .services_body {
+    background-image: url("../../Assets/Group\ 2182.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  .overview_section {
+    padding: 3rem 0.7rem;
+    padding-top: 1.6rem;
+  }
+  .overview_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .overview_header {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+  }
+  .left_content {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-right: 0px;
+    margin-bottom: 1.5rem;
+  }
+  .right_content {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    margin-left: 0px;
+    margin-top: 1.5rem;
+  }
+  .area_section_content {
+    display: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.5rem;
+  }
+  .area_expertise_section {
+    padding: 2.375rem 0.937rem;
+    width: 100%;
+  }
+  .section_header {
+    font-size: 2.25rem;
+  }
+  .services_header {
+    font-weight: 300;
+    font-size: 36px;
+    font-family: "Helvetica Neue", sans-serif;
+    margin-bottom: 2.18rem;
+  }
+  .services_body {
+    padding: 2.5rem 1rem;
+    padding-bottom: 27rem;
+  }
+  .about_services {
+    display: none;
+  }
+  .step_text {
+    display: block;
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 1480px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+  }
+}
